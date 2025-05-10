@@ -56,6 +56,8 @@ class Solvent:
 
 
 # Ion database
+# NOTE: The values in this database are placeholders and need to be cross-referenced 
+# with reliable sources for accurate scientific calculations
 ion_database: Dict[str, Ion] = {
     # Alkali metal cations
     'Li+': Ion(name='Li+', charge=1, radiusAng=0.69, dispersionB=0.0, ionPolarizability=0.03),
