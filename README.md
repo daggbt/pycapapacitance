@@ -1,18 +1,23 @@
 # Electrochemical Capacitance Model
 
-A Python package for calculating electrochemical capacitance using steric models (Carnahan-Starling or Liu) for ion interactions.
+A Python package for calculating electrochemical capacitance using the semianalytical approach for Carnahan-Starling-like steric models.
 
 ## Authors
 
 - Dagmawi Tadesse
 - Drew Parsons
 
+## Paper Reference
+
+This package implements the methods described in:
+> D.B. Tadesse and D.F. Parsons, "Semianalytical approximation of Ion Adsorption Layers and Capacitance in Carnahan-Starling-like steric models," Electrochimica Acta (2025). DOI: [10.1016/j.electacta.2025.146266](https://doi.org/10.1016/j.electacta.2025.146266)
+
 ## Features
 
+- Efficient implementation of our semianalytical approximation for high-potential regimes
 - Ion and Solvent classes with physical properties
 - Pre-defined database of common ions and solvents
 - Electrochemical system modeling with hydration effects
-- Steric energy calculations using Carnahan-Starling or Liu models
 - Capacitance calculations with potential-dependent dielectric effects
 - Visualization utilities for capacitance curves
 
