@@ -8,7 +8,7 @@ setup(
     version="0.1.0",
     author="Dagmawi Tadesse, Drew Parsons",
     author_email="daggbt@gmail.com",
-    description="A package for calculating electrochemical capacitance using steric models",
+    description="A package for calculating differential capacitance of electrochemical systems using the semi-analytical Carnahan-Starling steric models",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/daggbt/pycapapacitance",
@@ -16,7 +16,7 @@ setup(
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",
-        "Topic :: Scientific/Engineering :: Chemistry",
+        "Topic :: Scientific/Engineering :: Electro-Chemistry, Physics",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
